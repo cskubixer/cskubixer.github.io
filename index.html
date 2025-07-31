@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dzień dziewczyny</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Szczęśliwego Międzynarodowego Dnia Dziewczyny ♡</h1>
+    <p class="notice">Do: mojej ukochanej ♡<br>Od: twojego chłopaka ♡</p>
+  </header>
+
+  <section class="main-photo">
+    <img src="images/gf-main.jpg" alt="Girlfriend Photo"/>
+  </section>
+
+  <section class="things-love">
+    <h2>Rzeczy, które w tobie kocham ♡</h2>
+    <div class="love-notes">
+      <div>✨ Jesteś tak pomocna. Dla lazdego coś robisz i bardzo to doceniam.</div>
+      <div>✨ Jesteś bardzo utalentowana. To normalne, żeby miec taki dar do śpiewania????</div>
+      <div>✨ Bardzo cięzko pracujesz nad rzeczami na których ci zależy. Ta praca pokazuje wyniki i jestem z Ciebie mega dumny!.</div>
+      <div>✨ Masz najsłodszy uśmiech! Zawsze sprawia, że samemu sie uśmiecham.</div>
+      <div>✨ Wiesz jak mnie pocieszyć. Twoje komplementy i czyny znaczą dla mnie wszystko jak jest źle.</div>
+      <div>✨ Sprawiasz, że mam ochote zacząc nowy dzień. Nie wiem ile razy będe Ci za to dziękować.</div>
+      <div>✨ Jesteś bardzo mądra. Twoja wiedza mnie zaskakuje na rózne tematy i dużo moge sie od Ciebie nauczyć.</div>
+      <div>✨ Jesteś mega słodka!!!</div>
+      <div>✨ Sprawiasz, że świat jest lepszym miejscem i serio tak jest.</div>
+      <div>✨ Jesteś cierpliwa. Jestem pod wrażeniem jak bardzo cierpliwym człowiekiem jesteś.</div>
+      <div>✨ Masz naprawde dobry gust. Nie mówie tylko o muzyce ale tez o filmach, ciuchach itd!.</div>
+      <div>✨ Kocham to kim jesteś. Nie wstydzisz sie tego, co cie interesuje i jaką jesteś osobą.</div>
+      <div>✨ Jesteś bardzo silna. Dajesz rade z wszystkim mimo, że nie zawsze jest kolorowo i jestem dumny z Ciebie dzień w dzień.</div>
+      <div>✨ Kocham to, że po prostu jesteś. Twoja obecność w moim życiu znaczy więcej niż sobie możesz zdawać sprawe.</div>
+    </div>
+  </section>
+
+  <section class="moments">
+    <h2>Ulubione momenty razem ♡</h2>
+    <div class="gallery">
+      <img src="images/first-date.jpg" alt="Pierwsza randka" onclick="openModal(this)">
+      <img src="images/sleepover.JPG" alt="Pierwsze spanie u Ciebie" onclick="openModal(this)">
+      <img src="images/imieniny.JPG" alt="Imieniny" onclick="openModal(this)">
+      <img src="images/rowery.jpg" alt="Rowery razem" onclick="openModal(this)">
+      <img src="images/mieszkanie-razem.jpg" alt="Mieszkanie razem" onclick="openModal(this)">
+    </div>
+    <center><h4>i wiele, wiele więcej! KOCHAM CIĘ AMELKA ♡</h4></center>
+  </section>
+
+  <div id="lightbox" class="lightbox" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
